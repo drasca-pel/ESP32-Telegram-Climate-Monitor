@@ -16,3 +16,5 @@ A non-blocking, asynchronous environmental monitoring system built on the standa
 ## Current Status
 * **Phase 1 (Current):** Fully functional alpha prototype deployed on a physical breadboard setup.
 * **Phase 2 (Planned):** Migration to a permanent Vero board circuit layout to enhance mechanical stability and physical packaging.
+* ### Project Demonstration Video
+![Watch the demo](VID-20260629-WA0009(1).mp4)
