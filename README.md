@@ -21,5 +21,3 @@ Video playback is available below:
 
 https://github.com/drasca-pel/ESP32-Telegram-Climate-Monitor/blob/main/VID-20260629-WA0009(1).mp4?raw=true
 ### System Circuit Schematic
-![Circuit Schematic Layout](1782753401974.png)
-
