@@ -20,4 +20,59 @@ A non-blocking, asynchronous environmental monitoring system built on the standa
 Video playback is available below:
 
 https://github.com/drasca-pel/ESP32-Telegram-Climate-Monitor/blob/main/VID-20260629-WA0009(1).mp4?raw=true
-### System Circuit Schematic
+# 🌡️ ESP32 IoT Climate Monitor with Telegram Alerts
+
+A smart, non-blocking environmental monitoring system built on the ESP32. It tracks temperature and humidity using a DHT11 sensor, displays real-time data on an I2C OLED screen using smart hysteresis, and sends instant alerts to a Telegram bot when thresholds are crossed.
+
+---
+
+## 🔌 Hardware Wiring Guide
+
+For a successful setup, connect your components to the ESP32 development board according to the pinouts below. 
+
+### 1. Sensors & Displays
+| Component | Component Pin | ESP32 GPIO | Description |
+| :--- | :--- | :--- | :--- |
+| **DHT11 Sensor** | VCC | **3V3** | 3.3V Power Supply |
+| | GND | **GND** | Ground |
+| | DATA / OUT | **GPIO 4** | Climate Data Input |
+| **SSD1306 OLED** | VCC | **3V3** | 3.3V Power Supply |
+| | GND | **GND** | Ground |
+| | SDA | **GPIO 21** | I2C Data Line |
+| | SCL | **GPIO 22** | I2C Clock Line |
+
+### 2. Indicators & Alerts
+| Component | Component Pin | ESP32 GPIO | Connection Requirement |
+| :--- | :--- | :--- | :--- |
+| **White LED** | Anode (+) | **GPIO 17** | Inline with **220Ω Resistor** (Stable Status) |
+| **Blue LED** | Anode (+) | **GPIO 16** | Inline with **220Ω Resistor** (Too Cold Status) |
+| **Red LED** | Anode (+) | **GPIO 27** | Inline with **220Ω Resistor** (Too Hot Status) |
+| **Active Buzzer** | Positive (+) | **GPIO 26** | Direct connection (Audible Alert) |
+| **Common Ground**| Cathode (-) / GND| **GND** | Tie all LED/Buzzer ground legs together |
+
+---
+
+## 🛠️ Schematic Breakdown
+
+```text
+               +-------------------+
+               |    ESP32 Board    |
+               +-------------------+
+                 |   |   |   |   |
+      +----------+   |   |   |   +----------+
+      |  3V3         |   |   |         GND  |
+      |              |   |   |              |
++-----+-----+        |   |   |        +-----+-----+
+|   DHT11   |--[G4]--+   |   +--[G26]-|  Buzzer   |
++-----------+            |            +-----------+
+                         |
+           +-------------+-------------+
+           |   |   |   |   |   |   |   |
+         [G21][G22]  [G17][G16][G27]   |
+           |   |       |   |   |       |
+       +---+---+--+    R   R   R       |
+       | I2C OLED |    |   |   |       |
+       +----------+   (W) (B) (R)      |
+                       |   |   |       |
+                       +---+---+-------+
+
