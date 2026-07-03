@@ -51,6 +51,11 @@ For a successful setup, connect your components to the ESP32 development board a
 | **Common Ground**| Cathode (-) / GND| **GND** | Tie all LED/Buzzer ground legs together |
 
 ---
+### 🔍 Crucial Hardware Notes
+
+* **DHT11 / DHT22 (4-Pin Sensor Chip):** If you are using the standalone 4-pin sensor chip, you **must** place a **$10\text{ k}\Omega$ resistor** between the **VCC** and **DATA** lines. This pulls the data line high for stable digital communication.
+* **DHT11 / DHT22 (3-Pin PCB Module):** If your sensor is already pre-mounted on a small breakout board, you can skip the resistor—the board
+* 
 
 ## 🛠️ Schematic Breakdown
 
