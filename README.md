@@ -57,5 +57,10 @@ For a successful setup, connect your components to the ESP32 development board a
 * **DHT11 / DHT22 (3-Pin PCB Module):** If your sensor is already pre-mounted on a small breakout board, you can skip the resistor—the board
 * 
 
-## 🛠️ Schematic Breakdown
+### 🎥 Project Demonstration
 
+<video src="short-demo.mp4" controls="controls" style="max-width: 100%; height: auto;"></video>
+
+![Physical Hardware Setup](1782753401974.png)
+
+[Click here to watch the full video demonstration with sound on LinkedIn!](PASTE_YOUR_NEW_LINKEDIN_POST_URL_HERE)
