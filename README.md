@@ -1,3 +1,13 @@
+
+
+https://github.com/user-attachments/assets/198de071-a69d-483c-9984-370ec2cc8e15
+
+
+
+https://github.com/user-attachments/assets/c388a112-6b4d-4dcd-8969-361933d2c3a0
+
+
+
 # ESP32 Telegram Climate Monitor
 
 A non-blocking, asynchronous environmental monitoring system built on the standard ESP32 platform. The device tracks ambient temperature and humidity in real-time using a DHT11 sensor, displays live metrics locally on an SSD1306 OLED screen, and utilizes a state-machine with thermal hysteresis to route critical alerts to a Telegram channel.
@@ -62,6 +72,10 @@ For a successful setup, connect your components to the ESP32 development board a
 *(Click the link below the image to watch the full video with sound)*
 
 👉 [Click here to watch the live video demonstration on LinkedIn!](https://www.linkedin.com/posts/adeleye-dara-235579406_iot-esp32-embeddedsystems-ugcPost-7479179852152217600-mZE8/)
+
+
+
+https://github.com/user-attachments/assets/930131ac-e4ec-440a-8b62-85158e4bfbf1
 
 
 
