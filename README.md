@@ -59,7 +59,11 @@ For a successful setup, connect your components to the ESP32 development board a
 
 ### 🎥 Project Demonstration
 
-<video src="VID-20260704-WA0049.mp4"></video>
+*(Click the link below the image to watch the full video with sound)*
+
+👉 [Click here to watch the live video demonstration on LinkedIn!](https://www.linkedin.com/posts/adeleye-dara-235579406_iot-esp32-embeddedsystems-ugcPost-7479179852152217600-mZE8/)
+
+
 
 ![Physical Hardware Setup](IMG-20260704-WA0048.jpg)
 
