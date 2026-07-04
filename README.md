@@ -71,4 +71,4 @@ https://github.com/user-attachments/assets/930131ac-e4ec-440a-8b62-85158e4bfbf1
 
 ![Physical Hardware Setup](IMG-20260704-WA0048.jpg)
 
-[Click here to watch the full video demonstration with sound on LinkedIn!](PASTE_YOUR_NEW_LINKEDIN_POST_URL_HERE)
+[Click here to watch the full video demonstration with sound on LinkedIn!](https://www.linkedin.com/posts/adeleye-dara-235579406_iot-esp32-embeddedsystems-ugcPost-7479199432232767488-zhvb/?utm_source=share&utm_medium=member_android&rcm=ACoAAGeq0QkBUeIoH3QZdjBUO55cZS6MKxYMXI8)
