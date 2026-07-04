@@ -61,6 +61,6 @@ For a successful setup, connect your components to the ESP32 development board a
 
 <video src="short-demo.mp4" controls="controls" style="max-width: 100%; height: auto;"></video>
 
-![Physical Hardware Setup](1782753401974.png)
+![Physical Hardware Setup](IMG-20260704-WA0048.jpg)
 
 [Click here to watch the full video demonstration with sound on LinkedIn!](PASTE_YOUR_NEW_LINKEDIN_POST_URL_HERE)
